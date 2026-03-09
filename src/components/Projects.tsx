@@ -161,7 +161,7 @@ export function Projects() {
       ],
     
       links: [
-        { label: "ETHGlobal Showcase", url: "https://ethglobal.com/showcase/deesg-2me7g", type: "website" },
+        { label: "Showcase", url: "https://ethglobal.com/showcase/deesg-2me7g", type: "website" },
         { label: "Website", url: "https://de-esg.vercel.app/", type: "website" },
         { label: "Source Code", url: "#", type: "github" }
       ]

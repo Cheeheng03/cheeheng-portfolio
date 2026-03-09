@@ -30,8 +30,8 @@ export function Navbar() {
     <header
       className={`fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl z-50 transition-all duration-300 rounded-2xl ${
         isScrolled 
-          ? "bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] support-[backdrop-filter]:bg-white/5" 
-          : "bg-transparent"
+          ? "bg-black/60 md:bg-white/5 backdrop-blur-2xl md:backdrop-blur-xl border border-white/10 md:border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)] support-[backdrop-filter]:bg-black/60 md:support-[backdrop-filter]:bg-white/5" 
+          : "bg-black/40 md:bg-transparent backdrop-blur-lg md:backdrop-blur-none border border-white/5 md:border-transparent"
       }`}
     >
       <div className="px-6 h-14 flex items-center justify-between">
@@ -115,7 +115,7 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0, marginTop: 0 }}
             animate={{ opacity: 1, height: "auto", marginTop: 8 }}
             exit={{ opacity: 0, height: 0, marginTop: 0 }}
-            className="md:hidden bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden absolute top-full left-0 w-full shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
+            className="md:hidden bg-[#050505] border border-white/20 rounded-2xl overflow-hidden absolute top-full left-0 w-full shadow-[0_20px_40px_rgba(0,0,0,0.8)] z-50"
           >
             <nav className="flex flex-col p-4 gap-2">
               {navItems.map((item) => (
