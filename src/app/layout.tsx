@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Chee Heng Tang | Founder Engineer & Smart Contract Developer",
   description: "Portfolio of Chee Heng Tang, a DeFi Systems Builder, Founder Engineer, and Smart Contract Developer.",
   icons: {
-    icon: "/web.png",
+    icon: "/icon.png",
   },
 };
 
